@@ -1,0 +1,10 @@
+apiVersion: snapshot.storage.k8s.io/v1
+kind: VolumeSnapshotClass
+metadata:
+  name: {{ .Values.volumeSnapshotClass.name | quote }}
+  annotations:
+    k10.kasten.io/is-snapshot-class: "true"
+driver: {{ .Values.volumeSnapshotClass.driver | quote }}
+deletionPolicy: {{ .Values.volumeSnapshotClass.deletePolicy | quote }}
+parameters:
+  incremental: {{ .Values.volumeSnapshotClass.incremental | quote }}

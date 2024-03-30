@@ -1,0 +1,7 @@
+# Default values for azvolumesnap.
+volumeSnapshotClass:
+  name: csi-default
+  driver: disk.csi.azure.com
+  deletePolicy: Delete
+  incremental: true
+

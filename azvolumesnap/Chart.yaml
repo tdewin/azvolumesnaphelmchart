@@ -1,0 +1,8 @@
+apiVersion: v2
+name: azvolumesnap
+description: A Helm chart for creating Azure AKS VolumeSnapshotClass compatible with K10
+
+type: application
+
+version: 0.1.0
+appVersion: "0.1.0"

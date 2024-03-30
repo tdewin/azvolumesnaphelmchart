@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  azvolumesnap:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-03-30T13:41:35.214946+01:00"
+    description: A Helm chart for creating Azure AKS VolumeSnapshotClass compatible
+      with K10
+    digest: e39f627936a704e373705e24bccba368853502b66ed18cb43ac8a53dcb64e22a
+    name: azvolumesnap
+    type: application
+    urls:
+    - azvolumesnap-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-03-30T13:41:35.214633+01:00"
